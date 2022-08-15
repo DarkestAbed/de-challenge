@@ -8,37 +8,37 @@ A retail store wants to create a new section for videogames. To bring custom vid
 ## Business Requirement
 
 For this Challenge, you should develop an ETL job (or jobs) that provide the Data team the required data, with some considerations:
-- The job should be developed in Python, Scala or Javascript/Typescript
+- The job should be developed in Python, Scala or Javascript/Typescript. The choice must be documented and justified
 - The data model for the proposed solution must be delivered in PNG or SVG format
-- The code should have a deployment method
+- The code should have a deployment method available
 
 ## ETL Job
 
-The job must receive the datasets & brings a few things:
-- The top 10 best games for each console/company.
-- The worst 10 games for each console/company.
-- The top 10 best games for all consoles.
-- The worst 10 games for all consoles.
-The data is in the folder data/ in the root. The report can be exposed in any way you want, but remember this is an ETL Job.
+The job must receive the datasets and provide the following answers daily:
+
+- The top 10 best games for each console/company
+- The worst 10 games for each console/company
+- The top 10 best games for all consoles
+- The worst 10 games for all consoles
+
+The data is in the `data/` folder. The reports can be exposed in any way you want, but keep in mind this is an ETL job.
 
 ## Data Model
 
-The Data Model must be in 3NF. 
-Save the model in the DataModel folder in both formats (data model format & JPG/PNG).
-```
-Use any tool, but please tell us the tool you choose & why.
-```
+The Data Model must be in 3NF.<br>
+Save the model in the `DataModel/` folder in PNG or SVG format. If you want, you can provide an extensible and versionable format as well (e.g. `drawio.xml`).<br>
+Use any tool, but please tell us the tool you choose and why you're choosing it.
 
 ## Deployment
 
-We want you to give us the way to deploy your job and run it in any environment, So please put the way to deploy very clearly.
+We want you to provide a way to deploy your job and run it in any environment, so please provide a deploying mechanism and describe it on its own `README.md` on the `Deployment/` folder.
 
 ## Concerns
 
-- You can create a new README for anything you want to tell us. Please don't name README.md
-- We want to see if you know how to code in a professional way, so use the best practices of Software Engineering!.
-- This is an ETL Job, so show us all you know about good practices to do ETL's.
-- Save all the changes in your personal GitHub account using a Fork from this repository and send us the link to clone and see the repository.
+- We want to see how you code in a professional way, so use the best practices of Software Engineering you know about!
+- This is an ETL job, so show us all you know about best practices to do ETLs
+- Save all the changes in your personal GitHub account using a fork from this repository and send us the link to clone and see the final repo
+- You can use any and all modules, code pieces and tools you want to build this job and complete this challenge, but you must document them and justify them
 
 
 ### Disclaimer Note
